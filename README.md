@@ -3,8 +3,11 @@
 Apps da PiluTech para macOS, assinados com Developer ID e notarizados pela Apple.
 
 ```bash
+brew trust pilutech/tap
 brew install --cask pilutech/tap/trincano
 ```
+
+O Homebrew pede `brew trust` uma vez antes de instalar de um tap que não é o oficial.
 
 | Cask | App | Código |
 | --- | --- | --- |
