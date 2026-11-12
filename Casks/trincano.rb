@@ -4,7 +4,7 @@ cask "trincano" do
 
   url "https://github.com/PiluTech/trincano/releases/download/v#{version}/Trincano-#{version}.dmg"
   name "Trincano"
-  desc "Menu bar manager for macOS (fork of Ice)"
+  desc "Menu bar manager (fork of Ice)"
   homepage "https://pilutech.com.br/apps/trincano"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "trincano" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Trincano.app"
 
