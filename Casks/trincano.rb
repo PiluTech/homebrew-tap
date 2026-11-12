@@ -1,6 +1,6 @@
 cask "trincano" do
-  version "0.12.0"
-  sha256 "03743e3bcecf884f23c0f490ce49e75ffbe63a1638057203daf658a043b9248a"
+  version "0.13.0"
+  sha256 "fce257a6d0435d22caec6aaac5b812b61f2ed9238cdd8448fc64220659bf5eaa"
 
   url "https://github.com/PiluTech/trincano/releases/download/v#{version}/Trincano-#{version}.dmg"
   name "Trincano"
@@ -13,6 +13,8 @@ cask "trincano" do
   end
 
   depends_on macos: :sonoma
+
+  auto_updates true
 
   app "Trincano.app"
 
